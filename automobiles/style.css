@@ -1,0 +1,38 @@
+.prompt
+{
+	padding: 25%;
+	color: black;
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+    background-image: url("image.jpg");
+    height: 100%;
+}
+.signin{
+	padding: 20%;
+	text-align: center;
+    font-style: bold;
+    font-family: "verdana";
+    font-size: 20px;
+    height: 100%;
+    background-image: url("image2.jpg");
+}
+.register{
+	text-align: left;
+	padding: 15%;
+    padding-bottom: 25%;
+	padding-left: 5%;
+    font-style: bold;
+    color: white;
+    font-family: "verdana";
+    font-size: 20px;
+    background-image: url("image3.jpg");
+}
+.adminWelcome
+{
+    padding: 10%;
+    font-style: bold;
+    font-family: "verdana";
+    font-size: 20px;
+    background-color: green;
+}

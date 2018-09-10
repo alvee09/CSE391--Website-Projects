@@ -1,0 +1,7 @@
+var quote ["a",
+	"b",
+	"c"]
+
+funtion randomQuote {
+	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}

@@ -1,0 +1,92 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			Assignment 2
+		</title>
+		  <link rel="stylesheet" href="style2.css" />
+		<script type="text/javascript" src="scripts.js"></script>
+	</head>
+	<body onload="prep_magic()">
+		<div class="parallax">
+			<h5 id="quoteHeading">Quote Generator</h5>
+		<div class = "quote" id="quoteGen">
+  <div class ="onlyQuote">
+
+  <p id="randomQuote"></p>
+<script>
+  var quote= ["The most difficult thing is the decision to act, the rest is merely tenacity.",
+   "But man is not made for defeat. A man can be destroyed but not defeated.",
+    "There is nothing permanent except change.",
+    "Learning never exhausts the mind.",
+    "Independence is happiness."];
+  var randomNumber= Math.floor(Math.random() * Math.floor(4));
+document.getElementById("randomQuote").innerHTML = quote[randomNumber] ;
+
+</script>
+</div>
+<div class="color">
+  <div class="row1">
+  <button id="green" type="button" onclick="changeColor1()"></button>
+  <button id="red" type="button" onclick="changeColor3()"></button>
+</div>
+  <div class="row2">
+    <button id="blue" type="button" onclick="changeColor2()"></button>
+  <button id="yellow" type="button" onclick="changeColor4()"></button>
+</div>
+</div>
+</div>
+<h5 id="convertorHeading">Unit Convertor</h5>
+<div class="calculator">
+  <form>
+    <span id="label">Convert </span><input id="convert" type="text" name="convert" >
+    <select id="choice" name= "convType">
+    <option value="1">lb to kg</option>
+    <option value="2">kg to lb</option>
+</select>
+    <button type="button" onclick="calc()">Go</button><span id="ans" style="padding-left: 10px"></span>
+  </form>
+</div>
+	<h4 id="convertorHeading">Hero Convertor</h4>
+		<div class="convertor">
+		<p><span>Input series of Number</span><input id="inputStream" type="text" name="stream" onchange="numAdd(this.value)" oninput="numAdd(this.value)"></p>
+		<p>Max: <span id="max"></span></p>
+		<p>Min: <span id="min"></span></p>
+		<p>Sum: <span id="sum"></span></p>
+		<p>Average: <span id="avg"></span></p>
+		<p>Reverse Order: <span id="rev"></span></p>
+		</div>
+		</div>
+		<p id="magicHeading">Magic</p>
+		<div class="parallax2">
+		<div class="box">
+		<div class="magic">
+			<p id="line1"></p>
+			<p id="line2"></p>
+			<p id="line3"></p>
+			<p id="line4"></p>
+			<p id="line5"><br></p>
+			<p id="line6"></p>
+			<p id="line7"></p>
+			<p id="line8"><br></p>
+			<p id="line9"><br></p>
+			<p id="line10"></p>
+		</div>
+
+		<div class="button_sec">
+			<button type="button" id="clear" onclick="clear_it()">Clear it</button>
+			<button type="buttom" id="cap" onclick="capital()">Capitalize</button>
+			<button id="sort" onclick="sort()">Sort</button>
+			<button id="reverse" onclick="reverse()">Reverse</button>
+			<button id="blank" onclick="blank()">Strip Blank</button>
+			<button id="add_num" onclick="add_num()">Add number</button>
+			<button id="shuffle" onclick="shuffle()">Shuffle</button>
+		</div>
+		</div>
+
+		</div>
+		<p id="date"><script language="Javascript">
+document.write("This page was last modified on: " + document.lastModified +"");
+</SCRIPT></p>
+	</body>
+</html>

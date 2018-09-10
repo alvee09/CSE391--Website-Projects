@@ -1,0 +1,210 @@
+.quote{
+	text-align: center;
+	padding-top:  3%;
+	font-size: 20px;
+	padding-right: 15%;
+	padding-left: 15%;
+	height: 120px;
+	
+}
+.onlyQuote{
+	width: 70%;
+	float: left;
+	background-color: white;
+	color: black ;
+    opacity: 0.7;
+    font-style: bold;
+    filter: alpha(opacity=50);
+
+}
+.color{
+	width: 30%;
+	float: left;
+
+}
+#quoteHeading{
+	margin: 0;
+    padding: 0;
+    border: 0;
+	outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+}
+#convertorHeading{
+	text-align: center;
+	font-size: 25px;
+}
+#randomQuote{
+	border: solid;
+	margin: 5px;
+	padding: 5%;
+}
+#green
+{
+	padding: 10px;
+	background-color: #4CAF50;
+	border: solid;
+	border-width: 5px;
+	border-color: lightgrey;
+	border-radius: 20%;
+}
+#blue
+{
+	padding: 10px;
+	background-color: blue;
+	border: solid;
+	border-width: 5px;
+	border-color: lightgrey;
+	border-radius: 20%;
+}
+#red
+{
+	padding: 10px;
+	background-color: red;
+	border: solid;
+	border-width: 5px;
+	border-color: lightgrey;
+	border-radius: 20%;
+}
+#yellow
+{
+	padding: 10px;
+	background-color: yellow;
+	border: solid;
+	border-width: 5px;
+	border-color: lightgrey;
+	border-radius: 20%;
+}
+#row1
+{
+	height: 50%;
+}
+#row2
+{
+	height: 50%;
+}
+.calculator{
+	margin: 20px;
+	text-align: center;
+	padding: 10px;
+	border: solid;
+
+}
+.convertor
+{
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: black;
+	color: white ;
+    opacity: 0.5;
+    font-style: bold;
+    font-size: 20px;
+    filter: alpha(opacity=50);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+
+}
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    padding-bottom: 5%;
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#inputStream{
+	margin-left: 1%;
+}
+#label{
+	font-size: 20px;
+}
+#magicHeading{
+	margin: 0;
+    padding: 0;
+    border: 0;
+	outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	padding: 5%;
+	color: white;
+	background-image: url("magic.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.parallax2 { 
+	margin: 0;
+    padding: 0;
+    border: 0;
+	outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding-top: 5%;
+    /* The image used */
+    background-image: url("background2.jpg");
+
+    /* Full height */
+    padding-bottom: 5%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.box
+{
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: black;
+	color: white ;
+    opacity: 0.6;
+    font-style: bold;
+    font-size: 20px;
+    filter: alpha(opacity=50);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+.magic{
+	background-color: black;
+	color: white ;
+	border-style: dashed;
+	border-radius: 20px;
+	padding-left: 2%;
+	padding-top: 2%;
+    font-size: 20px;
+    font: bold;
+    margin-bottom: 1%;
+}
+#date{
+	margin: 0;
+    padding: 0;
+    border: 0;
+	outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+	text-align: right;
+	color: black;
+}
